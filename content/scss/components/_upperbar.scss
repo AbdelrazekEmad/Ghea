@@ -1,0 +1,18 @@
+.upperbar {
+  background-color: $main-color;
+  color: #fff;
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    li {
+      display: inline-block;
+      margin-inline: 0.5rem;
+      font-size: 14px;
+      a {
+        color: #fff;
+      }
+    }
+  }
+}
