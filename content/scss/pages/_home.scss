@@ -24,10 +24,88 @@
     position: absolute;
     bottom: 0;
     width: 100%;
+    background-color: $main-color;
     .btn {
       background-color: #206652;
       color: #fff;
       border-radius: 0;
+    }
+    .form__date {
+      display: flex;
+    }
+  }
+}
+
+.features {
+  background-color: $secound-color;
+  .features__card {
+    padding: 3rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__icon {
+      background-color: #fff;
+      width: 6rem;
+      height: 6rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      color: #fff;
+    }
+  }
+  .features__card--bgcolor {
+    background-color: $main-color;
+  }
+}
+
+.about-section {
+  .features__box {
+    display: flex;
+    .feature {
+      display: flex;
+      align-items: center;
+      .feature__icon {
+        background-color: $main-color;
+        min-width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-#{$e}: 6px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.scoops {
+  background-color: #e0e0e0;
+  color: #186e56;
+  &__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .icon__box {
+      background-color: #186e56;
+      width: 85px;
+      height: 85px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      margin-bottom: 0.5rem;
+      img {
+        width: 50px;
+        height: 50px;
+      }
     }
   }
 }

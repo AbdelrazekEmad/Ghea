@@ -38,16 +38,25 @@
         </div>
     </section>
 
-    <nav class="desktop__navgation py-3">
-        <div class="container d-flex align-items-center justify-content-center">
-            <ul class="p-0 m-0 me-5">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about-us/about-us.html">About Us</a></li>
-                <li><a href="./services/services.html">Servcies</a></li>
-                <li><a href="./communication/communication.html">Communication</a></li>
-                <li><a href="./reservations/reservations.html">Reservations</a></li>
-                <li><a href="./index-ar.html">Arabic</a></li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container flex-row-reverse flex-md-row">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./about-us/about-us.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./services/services.html">Servcies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./communication/communication.html">Communication</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="./reservations/reservations.html">Reservations</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="./index-ar.html">Arabic</a></li>
+                </ul>
+            </div>
             <button class="upperbar-btn"><a href="">Request our service now</a></button>
         </div>
     </nav>
@@ -62,7 +71,7 @@
                 </h1>
                 <button class="upperbar-btn text-center"><a href="">Request our service now</a></button>
             </div>
-            <div class="hero__form">
+            <div class="hero__form d-none d-lg-block">
                 <form>
                     <div class="row">
                         <div class="col-4">
@@ -83,10 +92,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
-                            <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
+                        <div class="col-3 d-flex">
+                            <input class="form__date" type="date">
+                            <input class="form__date" type="date">
                         </div>
                         <div class="col-3">
                             <div class="row">
@@ -98,11 +106,11 @@
                                 </select>
                             </div>
                             <div class="row">
-                                <div class="input-group mb-1">
+                                <div class="input-group p-0 mb-1">
                                     <span class="input-group-text" id="basic-addon1"><i
-                                            class="fa-solid fa-location-dot"></i></span>
-                                    <input type="text" class="form-control" placeholder="Your Location"
-                                        aria-label="YourLocation" aria-describedby="basic-addon1">
+                                            class="fa-solid fa-phone-volume"></i></span>
+                                    <input type="text" class="form-control" placeholder="Phone Number"
+                                        aria-label="PhoneNumber" aria-describedby="basic-addon1">
                                 </div>
                             </div>
                         </div>
@@ -116,6 +124,303 @@
         </div>
     </section>
 
+    <section class="features">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+            <div class="col">
+                <div class="features__card">
+                    <div class="features__card__icon">
+                        <img src="./content/assets/img/Vector Smart Object.png" alt="icon">
+                    </div>
+                    <h2>GHEA Home Care Services provides the best quality of care</h2>
+                </div>
+            </div>
+            <div class="col">
+                <div class="features__card features__card--bgcolor">
+                    <div class="features__card__icon">
+                        <img src="./content/assets/img/Vector Smart Object2.png" alt="icon">
+                    </div>
+                    <h2>GHEA Home Care Services provides the best quality of care</h2>
+                </div>
+            </div>
+            <div class="col">
+                <div class="features__card">
+                    <div class="features__card__icon">
+                        <img src="./content/assets/img/Vector Smart Object3.png" alt="icon">
+                    </div>
+                    <h2>GHEA Home Care Services provides the best quality of care</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About section  -->
+    <section class="about-section py-5">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col">
+                    <img class="img-fluid"
+                        src="./content/assets/img/doctor-crossing-arms-while-holding-stethoscope-white-coat.png" alt="">
+                </div>
+                <div class="col">
+                    <span class="text__main__color">Get to know GHEA</span>
+                    <h2 class="text__main__color">GHEA Medical Services.
+                        We provide health care for you
+                        and your family.</h2>
+                    <p>GHEA Home Care Services is the first company of its kind to provide
+                        home health care in a homestay For the elderly, Alzheimer’s patients,
+                        postoperative care and operations, as well as childcare and other services
+                        We provide our service with the best staff of specialists.
+                    </p>
+                    <div class="features__box">
+                        <div class="row">
+                            <div class="col">
+                                <div class="feature">
+                                    <div class="feature__icon">
+                                        <img src="./content/assets/img/Vector Smart Object4.png" width="24" height="24"
+                                            alt="">
+                                    </div>
+                                    <p class="m-0">Professional and trained staff at the highest level</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="feature">
+                                    <div class="feature__icon">
+                                        <img src="./content/assets/img/Vector Smart Object5.png" width="24" height="24"
+                                            alt="">
+                                    </div>
+                                    <p class="m-0">Prices to suit everyone</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>- We provide the best care for our clients</li>
+                        <li>- We work positively and efficiently</li>
+                        <li>- We care about gaining the trust of our customers</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="scoops py-5">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="col">
+                    <div class="scoops__card">
+                        <div class="icon__box">
+                            <img class="img-fluid" src="./content/assets/img/scoops-section/icon-5.png" alt="icon">
+                        </div>
+                        <h3 class="fw-bold">Alzheimer's Care</h3>
+                        <p>We provide our services to people living with Alzheimer's
+                            to help them go about their lives easier and do their daily
+                            needs and help them feel independent to ensure that
+                            the quality of life provided to them is greatly improved</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="scoops__card">
+                        <div class="icon__box">
+                            <img class="img-fluid" src="./content/assets/img/scoops-section/icon-8.png" alt="icon">
+                        </div>
+                        <h3 class="fw-bold">Care for all ages</h3>
+                        <p>Our care is not limited to the elderly or children.
+                            We provide home medical care for all ages and conditions,
+                            whether they are in need or have other health conditions
+                            requiring home care.
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="scoops__card">
+                        <div class="icon__box">
+                            <img class="img-fluid" src="./content/assets/img/scoops-section/icon-9.png" alt="icon">
+                        </div>
+                        <h3 class="fw-bold">Care for the elderly</h3>
+                        <p>Older people in health care's neediest age groups help
+                            them go about their lives quickly. We spend our time
+                            creating a plan tailored to the requirements and objectives
+                            of the elderly who receive care.
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="scoops__card">
+                        <div class="icon__box">
+                            <img class="img-fluid" src="./content/assets/img/scoops-section/icon-4.png" alt="icon">
+                        </div>
+                        <h3 class="fw-bold">Childcare</h3>
+                        <p>Children need special care that gives them good health care,
+                            comfort, and safety, whether the child has a disability, illness,
+                            or other problem that requires constant and regular care
+                            and attention. Your first choice is for medical services.
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="scoops__card">
+                        <div class="icon__box">
+                            <img class="img-fluid" src="./content/assets/img/scoops-section/icon-7.png" alt="icon">
+                        </div>
+                        <h3 class="fw-bold">Post-surgical care</h3>
+                        <p>After performing surgical operations, specifically
+                            in the convalescent period, the patient has difficulty
+                            moving and doing his daily tasks efficiently and needs
+                            to take medical real estate at specific times, so we offer
+                            post-operative care service with specialists from GHEA
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="scoops__card">
+                        <div class="icon__box">
+                            <img class="img-fluid" src="./content/assets/img/scoops-section/icon-2.png" alt="icon">
+                        </div>
+                        <h3 class="fw-bold">Antenatal and post-natal care</h3>
+                        <p>Prenatal and postpartum need great qualifications
+                            for some ladies in this period with a lot of problems
+                            and difficulties that need special care, and this is what
+                            we offer you in GHEA
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="scoops__card">
+                        <div class="icon__box">
+                            <img class="img-fluid" src="./content/assets/img/scoops-section/icon-3.png" alt="icon">
+                        </div>
+                        <h3 class="fw-bold">Short Term Care</h3>
+                        <p>Most cases require short-term care or a certain period
+                            to perform daily tasks, whether for the elderly, children,
+                            or other ages and health conditions.
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="scoops__card">
+                        <div class="icon__box">
+                            <img class="img-fluid" src="./content/assets/img/scoops-section/icon-6.png" alt="icon">
+                        </div>
+                        <h3 class="fw-bold">Personal Care</h3>
+                        <p>We understand each individual's circumstances and develop
+                            a plan that best suits their needs. According to this plan,
+                            caregivers will be keen to care for them with kindness.
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="scoops__card">
+                        <div class="icon__box">
+                            <img class="img-fluid" src="./content/assets/img/scoops-section/icon-1.png" alt="icon">
+                        </div>
+                        <h3 class="fw-bold">Personal Care Escort</h3>
+                        <p>Chronic diseases or short-term mobility problems can lead
+                            to loneliness and social isolation in patients. This difficult period
+                            requires a companion that can bring a sense of humanity
+                            and participation so that loneliness does not affect their health
+                            and well-being.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col">
+                    <img src="./content/assets/img/pleased-pensioner-his-joyous-caregiver-sitting-coffee-table-reading-newspaper.png"
+                        alt="">
+                </div>
+                <div class="col">
+                    <span class="text__main__color">Why choose GHEA Home Care Services?</span>
+                    <h2 class="fs-1 text__main__color">We care for you and your family</h2>
+                    <p>A specialized team of qualified and trained caregivers
+                        We provide our services in the care of various health conditions
+                        and different ages Our ultimate goal is to provide the best care
+                        service for you and your family We enjoy our competitive prices
+                        that suit everyone
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col">
+                    <h2 class="text__main__color mb-5">How We Work</h2>
+                    <ul>
+                        <li>- When selecting our services, a comprehensive consultation session
+                            is held to understand the patient's health and needs.</li>
+                        <li>- We then help you choose the best caregiver, depending on the period
+                            you need and the condition you need to care for</li>
+                        <li>- Our experts develop a plan depending on your individual needs</li>
+                        <li>- Our caregivers will begin to provide services, and we will monitor
+                            their progress to ensure compliance with high standards of care.</li>
+                        <li>- We assess caregivers periodically to ensure quality.</li>
+                    </ul>
+                </div>
+                <div style="background-color: #39ac8c; border-radius: 10px;" class="col  p-5">
+                    <form>
+                        <h2 class="text-center text-white mb-5 fw-bold">Fill the form</h2>
+                        <div class="row">
+                            <div class="col">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" placeholder="phone">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="E-mail">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="mb-3">
+                                    <input type="password" class="form-control" placeholder="Subject">
+                                </div>
+                            </div>
+                        </div>
+                        <textarea class="form-control" placeholder="Message" id="exampleFormControlTextarea1"
+                            rows="6"></textarea>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="pt-5 pb-2 text-white">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                <div class="col">
+                    <img class="img-fluid" src="./content/assets/img/logo.webp" alt="">
+                </div>
+                <div class="col">
+                    <h3>Looking for home health care?</h3>
+                </div>
+                <div class="col">
+                    <p>GHEA Medical Services Your first choice of home
+                        care with trained professionals whose goal
+                        is to provide you with the best service
+                    </p>
+                </div>
+                <div class="col">
+                    <button class="upperbar-btn text-white">Request our service now</button>
+                </div>
+            </div>
+            <span class="d-block text-center">&copy; You deserve the best from <a class="text-light"
+                    href="https://www.ocoda.com/" target="_blank">Ocoda</a></span>
+        </div>
+    </footer>
 
     <!-- Bootstrap CDN for JS v5.3.0  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
