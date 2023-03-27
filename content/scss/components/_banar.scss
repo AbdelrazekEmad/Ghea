@@ -1,0 +1,42 @@
+.banar {
+  height: 65vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  h1 {
+    position: relative;
+    color: #fff;
+    padding-#{$s}: 1rem;
+    &::after {
+      content: "";
+      width: 4px;
+      height: 100%;
+      background-color: #fff;
+      position: absolute;
+      #{$s}: 0;
+      top: 0;
+      bottom: 0;
+    }
+  }
+}
+.services__banar {
+  background-image: linear-gradient(
+      rgba(76, 124, 110, 0.71),
+      rgba(76, 124, 110, 0.71)
+    ),
+    url(../assets/img/services/banar.png);
+}
+.about__banar {
+  background-image: linear-gradient(
+      rgba(76, 124, 110, 0.71),
+      rgba(76, 124, 110, 0.71)
+    ),
+    url(../assets/img/about/banar.png);
+}
+.communication__banar {
+  background-image: linear-gradient(
+      rgba(76, 124, 110, 0.71),
+      rgba(76, 124, 110, 0.71)
+    ),
+    url(../assets/img/communication/banar.png);
+}

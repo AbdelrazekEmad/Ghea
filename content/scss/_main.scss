@@ -8,6 +8,8 @@
 // components
 @import "./components/upperbar";
 @import "./components/buttons";
+@import "./components/banar";
+@import "./components/services";
 
 // layout
 @import "./layout/footer";
@@ -17,3 +19,5 @@
 
 // pages
 @import "./pages/home";
+@import "./pages/about";
+@import "./pages/contact";

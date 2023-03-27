@@ -1,178 +1,502 @@
 @import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap");
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/dir\/_rtl\.scss}line{font-family:\000039}}
 body {
   direction: rtl;
-  font-family: "Tajawal", sans-serif; }
+  font-family: "Tajawal", sans-serif;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/dir\/_rtl\.scss}line{font-family:\0000314}}
 input {
-  text-align: right; }
+  text-align: right;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/dir\/_rtl\.scss}line{font-family:\0000318}}
 *:not(i) {
-  font-family: "Tajawal", sans-serif !important; }
+  font-family: "Tajawal", sans-serif !important;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/dir\/_rtl\.scss}line{font-family:\0000322}}
 .services__number {
-  left: 15px !important; }
+  left: 15px !important;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/base\/_base\.scss}line{font-family:\000031}}
 .text__main__color {
-  color: #4c7c6e; }
+  color: #4c7c6e;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/base\/_base\.scss}line{font-family:\000034}}
+.bg__light__grean {
+  background-color: #5ed0af;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/base\/_base\.scss}line{font-family:\000037}}
+.bg__dark__grean {
+  background-color: #39ac8b;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/base\/_reset\.scss}line{font-family:\000031}}
 section {
-  overflow: hidden; }
+  overflow: hidden;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/base\/_reset\.scss}line{font-family:\000034}}
 li {
-  list-style: none; }
+  list-style: none;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/base\/_reset\.scss}line{font-family:\000037}}
 a {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/base\/_reset\.scss}line{font-family:\0000310}}
 input {
-  color: black !important; }
+  color: black !important;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/base\/_reset\.scss}line{font-family:\0000313}}
 .form-control,
 .input-group-text,
 .form-select {
   border: 0;
   border-radius: unset;
-  background-color: #fff; }
-  .form-control input,
-  .input-group-text input,
-  .form-select input {
-    padding-right: 0;
-    padding-left: 0; }
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/base\/_reset\.scss}line{font-family:\0000319}}
+.form-control input,
+.input-group-text input,
+.form-select input {
+  padding-right: 0;
+  padding-left: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/base\/_reset\.scss}line{font-family:\0000324}}
 .input-group-text i {
-  color: #4c7c6e; }
+  color: #4c7c6e;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/components\/_upperbar\.scss}line{font-family:\000031}}
 .upperbar {
   background-color: #4c7c6e;
-  color: #fff; }
-  .upperbar ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: flex-end; }
-    .upperbar ul li {
-      display: inline-block;
-      margin-inline: 0.5rem;
-      font-size: 14px; }
-      .upperbar ul li a {
-        color: #fff; }
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/components\/_upperbar\.scss}line{font-family:\000034}}
+.upperbar ul {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/components\/_upperbar\.scss}line{font-family:\000039}}
+.upperbar ul li {
+  display: inline-block;
+  margin-inline: 0.5rem;
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/components\/_upperbar\.scss}line{font-family:\0000313}}
+.upperbar ul li a {
+  color: #fff;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/components\/_buttons\.scss}line{font-family:\000031}}
 .upperbar-btn {
   background-color: #4c7c6e;
   padding: 0.25rem 1.5rem;
   border: 0;
-  border-radius: 10px; }
-  .upperbar-btn a {
-    color: #fff; }
+  border-radius: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/components\/_buttons\.scss}line{font-family:\000036}}
+.upperbar-btn a {
+  color: #fff;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/components\/_banar\.scss}line{font-family:\000031}}
+.banar {
+  height: 65vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/components\/_banar\.scss}line{font-family:\000036}}
+.banar h1 {
+  position: relative;
+  color: #fff;
+  padding-right: 1rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/components\/_banar\.scss}line{font-family:\0000310}}
+.banar h1::after {
+  content: "";
+  width: 4px;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/components\/_banar\.scss}line{font-family:\0000322}}
+.services__banar {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(76, 124, 110, 0.71)), to(rgba(76, 124, 110, 0.71))), url(../assets/img/services/banar.png);
+  background-image: linear-gradient(rgba(76, 124, 110, 0.71), rgba(76, 124, 110, 0.71)), url(../assets/img/services/banar.png);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/components\/_banar\.scss}line{font-family:\0000329}}
+.about__banar {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(76, 124, 110, 0.71)), to(rgba(76, 124, 110, 0.71))), url(../assets/img/about/banar.png);
+  background-image: linear-gradient(rgba(76, 124, 110, 0.71), rgba(76, 124, 110, 0.71)), url(../assets/img/about/banar.png);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/components\/_banar\.scss}line{font-family:\0000336}}
+.communication__banar {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(76, 124, 110, 0.71)), to(rgba(76, 124, 110, 0.71))), url(../assets/img/communication/banar.png);
+  background-image: linear-gradient(rgba(76, 124, 110, 0.71), rgba(76, 124, 110, 0.71)), url(../assets/img/communication/banar.png);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/components\/_services\.scss}line{font-family:\000031}}
+.services__card {
+  -webkit-box-shadow: 18px 7px 43px 0 #00000009;
+          box-shadow: 18px 7px 43px 0 #00000009;
+  margin: 1rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/components\/_services\.scss}line{font-family:\000034}}
+.services__card .services__card__content {
+  padding: 1rem;
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/components\/_services\.scss}line{font-family:\000037}}
+.services__card .services__card__content .services__card__headding {
+  margin-bottom: 0.4rem;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/components\/_services\.scss}line{font-family:\0000310}}
+.services__card .services__card__content .services__card__headding::before {
+  content: "";
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #4c7c6e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/components\/_services\.scss}line{font-family:\0000320}}
+.services__card .services__card__content .services__card__headding h5 {
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/components\/_services\.scss}line{font-family:\0000323}}
+.services__card .services__card__content .services__card__headding span {
+  font-size: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/components\/_services\.scss}line{font-family:\0000327}}
+.services__card .services__card__content p {
+  font-size: 14px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/layout\/_footer\.scss}line{font-family:\000031}}
 footer {
-  background-color: #3d3d3d; }
-  footer .upperbar-btn {
-    background-color: #4c7c6e; }
+  background-color: #3d3d3d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/layout\/_footer\.scss}line{font-family:\000033}}
+footer .upperbar-btn {
+  background-color: #4c7c6e;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/layout\/_navigation\.scss}line{font-family:\000032}}
 .navbar-nav li {
-  position: relative; }
-  .navbar-nav li:not(:last-child) {
-    margin-left: 1rem; }
-    .navbar-nav li:not(:last-child)::after {
-      content: "";
-      width: 8px;
-      height: 3px;
-      border-radius: 3px;
-      background-color: #4c7c6e;
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      right: 105%;
-      display: block; }
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/layout\/_navigation\.scss}line{font-family:\000034}}
+.navbar-nav li:not(:last-child) {
+  margin-left: 1rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/layout\/_navigation\.scss}line{font-family:\000036}}
+.navbar-nav li:not(:last-child)::after {
+  content: "";
+  width: 8px;
+  height: 3px;
+  border-radius: 3px;
+  background-color: #4c7c6e;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 105%;
+  display: block;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_home\.scss}line{font-family:\000031}}
 .hero {
   background-color: #c0f8e8;
   background-image: url(../assets/img/hero.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 75vh; }
-  .hero .container {
-    position: relative; }
-  .hero__content {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-    .hero__content h1 {
-      color: #585858;
-      text-align: center; }
-    .hero__content .upperbar-btn {
-      background-color: #585858;
-      border: 0; }
-  .hero__form {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background-color: #4c7c6e; }
-    .hero__form .btn {
-      background-color: #206652;
-      color: #fff;
-      border-radius: 0; }
-    .hero__form .form__date {
-      display: flex; }
+  height: 75vh;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_home\.scss}line{font-family:\000037}}
+.hero .container {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_home\.scss}line{font-family:\0000310}}
+.hero__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_home\.scss}line{font-family:\0000314}}
+.hero__content h1 {
+  color: #585858;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_home\.scss}line{font-family:\0000318}}
+.hero__content .upperbar-btn {
+  background-color: #585858;
+  border: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_home\.scss}line{font-family:\0000323}}
+.hero__form {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #4c7c6e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_home\.scss}line{font-family:\0000328}}
+.hero__form .btn {
+  background-color: #206652;
+  color: #fff;
+  border-radius: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_home\.scss}line{font-family:\0000333}}
+.hero__form .form__date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_home\.scss}line{font-family:\0000339}}
 .features {
-  background-color: #5ed0b0; }
-  .features .features__card {
-    padding: 3rem 3rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-    .features .features__card__icon {
-      background-color: #fff;
-      width: 6rem;
-      height: 6rem;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 1rem; }
-    .features .features__card h2 {
-      color: #fff; }
-  .features .features__card--bgcolor {
-    background-color: #4c7c6e; }
+  background-color: #5ed0b0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_home\.scss}line{font-family:\0000341}}
+.features .features__card {
+  padding: 3rem 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_home\.scss}line{font-family:\0000346}}
+.features .features__card__icon {
+  background-color: #fff;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_home\.scss}line{font-family:\0000356}}
+.features .features__card h2 {
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_home\.scss}line{font-family:\0000360}}
+.features .features__card--bgcolor {
+  background-color: #4c7c6e;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_home\.scss}line{font-family:\0000366}}
 .about-section .features__box {
-  display: flex; }
-  .about-section .features__box .feature {
-    display: flex;
-    align-items: center; }
-    .about-section .features__box .feature .feature__icon {
-      background-color: #4c7c6e;
-      min-width: 50px;
-      height: 50px;
-      line-height: 50px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-left: 6px; }
-    .about-section .features__box .feature p {
-      font-size: 14px; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_home\.scss}line{font-family:\0000368}}
+.about-section .features__box .feature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_home\.scss}line{font-family:\0000371}}
+.about-section .features__box .feature .feature__icon {
+  background-color: #4c7c6e;
+  min-width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_home\.scss}line{font-family:\0000382}}
+.about-section .features__box .feature p {
+  font-size: 14px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_home\.scss}line{font-family:\0000389}}
 .scoops {
   background-color: #e0e0e0;
-  color: #186e56; }
-  .scoops__card {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-    .scoops__card .icon__box {
-      background-color: #186e56;
-      width: 85px;
-      height: 85px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 50%;
-      margin-bottom: 0.5rem; }
-      .scoops__card .icon__box img {
-        width: 50px;
-        height: 50px; }
+  color: #186e56;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_home\.scss}line{font-family:\0000392}}
+.scoops__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_home\.scss}line{font-family:\0000396}}
+.scoops__card .icon__box {
+  background-color: #186e56;
+  width: 85px;
+  height: 85px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_home\.scss}line{font-family:\00003105}}
+.scoops__card .icon__box img {
+  width: 50px;
+  height: 50px;
+}
 
-/*# sourceMappingURL=main-rtl.css.map */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_about\.scss}line{font-family:\000032}}
+.about__section h4,
+.about__section p {
+  text-align: justify;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_about\.scss}line{font-family:\000038}}
+.vision__message__card {
+  height: 100%;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 2px solid #4c7c6e;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_about\.scss}line{font-family:\0000319}}
+.values {
+  background-color: #d9d9d9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_about\.scss}line{font-family:\0000321}}
+.values .value {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_about\.scss}line{font-family:\0000323}}
+.values .value p {
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_about\.scss}line{font-family:\0000329}}
+.features-about .col {
+  min-height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_about\.scss}line{font-family:\0000332}}
+.features-about .features__card {
+  height: 100%;
+  padding: 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_contact\.scss}line{font-family:\000031}}
+.contact-section {
+  overflow: unset;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_contact\.scss}line{font-family:\000033}}
+.contact-section .form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_contact\.scss}line{font-family:\000036}}
+.contact-section .form-label {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_contact\.scss}line{font-family:\000039}}
+.contact-section .form-control {
+  border-bottom: 1px solid #4c7c6e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_contact\.scss}line{font-family:\0000312}}
+.contact-section .content {
+  background-color: #196e57;
+  padding: 7rem 2rem 3rem 2rem;
+  margin-top: -6rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_contact\.scss}line{font-family:\0000318}}
+.contact-section form .btn {
+  background-color: #5ed0b0;
+  border-radius: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_contact\.scss}line{font-family:\0000321}}
+.contact-section form .btn:hover {
+  background-color: #4c7c6e;
+}
+
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ocoda\/Github-repos\/Ghea\/content\/scss\/pages\/_contact\.scss}line{font-family:\0000330}}
+  .contact-section .content {
+    padding: 3rem 2rem 3rem 2rem;
+    margin-top: 0rem;
+  }
+}

@@ -1,0 +1,35 @@
+.contact-section {
+  overflow: unset;
+  .form-control:focus {
+    box-shadow: none;
+  }
+  .form-label {
+    margin: 0;
+  }
+  .form-control {
+    border-bottom: 1px solid $main-color;
+  }
+  .content {
+    background-color: rgba(25, 110, 87, 1);
+    padding: 7rem 2rem 3rem 2rem;
+    margin-top: -6rem;
+  }
+  form {
+    .btn {
+      background-color: $secound-color;
+      border-radius: 0;
+      &:hover {
+        background-color: $main-color;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-section {
+    .content {
+      padding: 3rem 2rem 3rem 2rem;
+      margin-top: 0rem;
+    }
+  }
+}

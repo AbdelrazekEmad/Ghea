@@ -1,0 +1,31 @@
+.services__card {
+  box-shadow: 18px 7px 43px 0 #00000009;
+  margin: 1rem;
+  .services__card__content {
+    padding: 1rem;
+    background-color: #fff;
+    .services__card__headding {
+      margin-bottom: 0.4rem;
+      position: relative;
+      &::before {
+        content: "";
+        width: 2px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        #{$e}: 0;
+        background-color: $main-color  ;
+      }
+      h5 {
+        margin-bottom: 0;
+      }
+      span {
+        font-size: 12px;
+      }
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+}
