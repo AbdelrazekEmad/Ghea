@@ -1,9 +1,16 @@
 .hero {
-  background-color: #c0f8e8;
-  background-image: url(../assets/img/hero.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 75vh;
+  .item {
+    background-color: #c0f8e8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75vh;
+    &.slide-1 {
+      background-image: url(../assets/img/hero.png);
+    }
+    &.slide-2 {
+      background-image: url(../assets/img/hero2.webp);
+    }
+  }
   .container {
     position: relative;
   }
@@ -67,7 +74,8 @@
     display: flex;
     .feature {
       display: flex;
-      align-items: center;
+      flex-direction: column;
+      align-items: flex-start;
       .feature__icon {
         background-color: $main-color;
         min-width: 50px;
@@ -87,12 +95,15 @@
 }
 
 .scoops {
-  background-color: #e0e0e0;
   color: #186e56;
   &__card {
+    background-color: #e0e0e0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0.5rem;
+    height: 100%;
+    justify-content: space-between;
     .icon__box {
       background-color: #186e56;
       width: 85px;
@@ -107,5 +118,87 @@
         height: 50px;
       }
     }
+  }
+}
+
+.how-we-work {
+  .single-processing span {
+    background-color: $main-color;
+    display: inline-block;
+    line-height: 20px;
+    height: 20px;
+    width: 20px;
+    color: #fff;
+    border-radius: 50%;
+    position: relative;
+    left: -40px;
+    top: 10px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .single-processing:hover span {
+    background: #04a77c;
+  }
+  .single-processing .processing-icon {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 36px;
+    top: 8px;
+  }
+  .single-processing .processing-icon i {
+    color: #fff;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    text-align: center;
+    line-height: 80px;
+    background: #3bd7ad;
+    z-index: 1;
+    font-size: 35px;
+    position: relative;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .single-processing .processing-icon i::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: -7px;
+    border: 2px dotted #d5d8e0;
+    border-radius: 50%;
+    z-index: -1;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    animation: rotation 50s infinite linear;
+    animation-name: rotation;
+    animation-duration: 50s;
+    transition: all 0.5s;
+  }
+  .single-processing:hover i::after {
+    border: 2px dotted #04a77c;
+    animation: rotation 10s infinite linear;
+  }
+  .single-processing:hover i {
+    background-color: #04a77c;
+    color: #fff;
+  }
+  .single-processing h4 {
+    margin-top: 25px;
+    margin-bottom: 12px;
+    color: $main-color;
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
   }
 }

@@ -14,32 +14,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Css for Owl Carousel v2.3.4  -->
+    <link rel="stylesheet" href="./content/css/vendor/owl.carousel.css">
+    <link rel="stylesheet" href="./content/css/vendor/owl.theme.default.min.css">
     <!-- Main Style Sheet -->
     <link rel="stylesheet" href="./content/css/main-ltr.css">
 </head>
 
 <body>
 
-    <section class="upperbar py-1">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-12 col-md-2 text-center">
-                    <a href="./index.html"><img class="img-fluid" src="./content/assets/img/logo.webp" alt="logo-img"
-                            width="150"></a>
-                </div>
-                <div class="col-10 align-self-center d-none d-md-block">
-                    <ul>
-                        <li>Email address : <a href="mailto:info@gheamedical.com">info@gheamedical.com</a></li>
-                        <li>Phone number : <a href="tel:058043653">058043653</a></li>
-                        <li>Website : <a href="./index.html">gheamedical.com</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container flex-row-reverse flex-md-row">
+            <a class="navbar-brand" href="#">
+                <img src="./content/assets/img/Full-color.webp" alt="Bootstrap" width="150">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -47,79 +37,98 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="./index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="./about-us/about-us.html">About Us</a></li>
                     <li class="nav-item"><a class="nav-link" href="./services/services.html">Servcies</a></li>
                     <li class="nav-item"><a class="nav-link" href="./communication/communication.html">Communication</a>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="./index-ar.html">عربي</a></li>
                 </ul>
+                <button class="upperbar-btn"><a href="">Request our service now</a></button>
             </div>
-            <button class="upperbar-btn"><a href="">Request our service now</a></button>
         </div>
     </nav>
 
 
     <section class="hero">
-        <div class="container h-100 d-flex align-items-center">
-            <div class="hero__content">
-                <h1 class="fs-3">GHEA Home Care Services<br>
-                    We keep you safe and look after<br>
-                    your health
-                </h1>
-                <button class="upperbar-btn text-center"><a href="">Request our service now</a></button>
-            </div>
-            <div class="hero__form d-none d-lg-block">
-                <form>
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="row">
-                                <div class="input-group mb-1">
-                                    <span class="input-group-text" id="basic-addon1"><i
-                                            class="fa-solid fa-bullseye input-icon"></i></span>
-                                    <input type="text" class="form-control" placeholder="Your Name"
-                                        aria-label="YourName" aria-describedby="basic-addon1">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="input-group mb-1">
-                                    <span class="input-group-text" id="basic-addon1"><i
-                                            class="fa-solid fa-location-dot"></i></span>
-                                    <input type="text" class="form-control" placeholder="Your Location"
-                                        aria-label="YourLocation" aria-describedby="basic-addon1">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3 d-flex">
-                            <input class="form__date" type="date">
-                            <input class="form__date" type="date">
-                        </div>
-                        <div class="col-3">
-                            <div class="row">
-                                <select class="form-select mb-1" aria-label="Default select example">
-                                    <option value="0">All Servcie</option>
-                                    <option value="1">Servcie One</option>
-                                    <option value="2">Servcie Two</option>
-                                    <option value="3">Servcie Three</option>
-                                </select>
-                            </div>
-                            <div class="row">
-                                <div class="input-group p-0 mb-1">
-                                    <span class="input-group-text" id="basic-addon1"><i
-                                            class="fa-solid fa-phone-volume"></i></span>
-                                    <input type="text" class="form-control" placeholder="Phone Number"
-                                        aria-label="PhoneNumber" aria-describedby="basic-addon1">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <button type="submit" class="btn w-100 h-100">Request<br> Our Service Now</button>
-                        </div>
+        <div class="owl-carousel-hero owl-carousel owl-theme">
+            <div class="item slide-1">
+                <div class="container h-100 d-flex align-items-center">
+                    <div class="hero__content">
+                        <h1 class="fs-3">GHEA Home Care Services<br>
+                            We keep you safe and look after<br>
+                            your health
+                        </h1>
+                        <button class="upperbar-btn text-center"><a href="">Request our service now</a></button>
                     </div>
-                </form>
+                </div>
+            </div>
+            <div class="item slide-2">
+                <div class="container h-100 d-flex align-items-center">
+                    <div class="hero__content">
+                        <h1 class="fs-3">GHEA Home Care Services<br>
+                            We keep you safe and look after<br>
+                            your health
+                        </h1>
+                        <button class="upperbar-btn text-center"><a href="">Request our service now</a></button>
+                    </div>
+                </div>
             </div>
         </div>
+
     </section>
+    <!-- 
+    <div class="">
+        <div class="hero__form d-none d-lg-block">
+            <form>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="row">
+                            <div class="input-group mb-1">
+                                <span class="input-group-text" id="basic-addon1"><i
+                                        class="fa-solid fa-bullseye input-icon"></i></span>
+                                <input type="text" class="form-control" placeholder="Your Name" aria-label="YourName"
+                                    aria-describedby="basic-addon1">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-group mb-1">
+                                <span class="input-group-text" id="basic-addon1"><i
+                                        class="fa-solid fa-location-dot"></i></span>
+                                <input type="text" class="form-control" placeholder="Your Location"
+                                    aria-label="YourLocation" aria-describedby="basic-addon1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 d-flex">
+                        <input class="form__date" type="date">
+                        <input class="form__date" type="date">
+                    </div>
+                    <div class="col-3">
+                        <div class="row">
+                            <select class="form-select mb-1" aria-label="Default select example">
+                                <option value="0">All Servcie</option>
+                                <option value="1">Servcie One</option>
+                                <option value="2">Servcie Two</option>
+                                <option value="3">Servcie Three</option>
+                            </select>
+                        </div>
+                        <div class="row">
+                            <div class="input-group p-0 mb-1">
+                                <span class="input-group-text" id="basic-addon1"><i
+                                        class="fa-solid fa-phone-volume"></i></span>
+                                <input type="text" class="form-control" placeholder="Phone Number"
+                                    aria-label="PhoneNumber" aria-describedby="basic-addon1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <button type="submit" class="btn w-100 h-100">Request<br> Our Service Now</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div> -->
 
     <section class="features">
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
@@ -153,10 +162,9 @@
     <!-- About section  -->
     <section class="about-section py-5">
         <div class="container">
-            <div class="row row-cols-1 row-cols-md-2">
+            <div class="row row-cols-1 row-cols-md-2 align-items-center">
                 <div class="col">
-                    <img class="img-fluid"
-                        src="./content/assets/img/doctor-crossing-arms-while-holding-stethoscope-white-coat.png" alt="">
+                    <img class="img-fluid" src="./content/assets/img/about-section.webp" alt="">
                 </div>
                 <div class="col">
                     <span class="text__main__color">Get to know GHEA</span>
@@ -190,7 +198,7 @@
                             </div>
                         </div>
                     </div>
-                    <ul>
+                    <ul class="mt-3">
                         <li>- We provide the best care for our clients</li>
                         <li>- We work positively and efficiently</li>
                         <li>- We care about gaining the trust of our customers</li>
@@ -202,7 +210,7 @@
 
     <section class="scoops py-5">
         <div class="container">
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mb-3">
                 <div class="col">
                     <div class="scoops__card">
                         <div class="icon__box">
@@ -241,6 +249,8 @@
                         </p>
                     </div>
                 </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mb-3">
                 <div class="col">
                     <div class="scoops__card">
                         <div class="icon__box">
@@ -281,6 +291,8 @@
                         </p>
                     </div>
                 </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mb-3">
                 <div class="col">
                     <div class="scoops__card">
                         <div class="icon__box">
@@ -344,52 +356,36 @@
         </div>
     </section>
 
-    <section class="py-5">
+    <section class="how-we-work py-5">
         <div class="container">
-            <div class="row row-cols-1 row-cols-md-2">
-                <div class="col">
-                    <h2 class="text__main__color mb-5">How We Work</h2>
-                    <ul>
-                        <li>- When selecting our services, a comprehensive consultation session
-                            is held to understand the patient's health and needs.</li>
-                        <li>- We then help you choose the best caregiver, depending on the period
-                            you need and the condition you need to care for</li>
-                        <li>- Our experts develop a plan depending on your individual needs</li>
-                        <li>- Our caregivers will begin to provide services, and we will monitor
-                            their progress to ensure compliance with high standards of care.</li>
-                        <li>- We assess caregivers periodically to ensure quality.</li>
-                    </ul>
+            <h2 class="text__main__color text-center mb-5">How We Work</h2>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 icon-color">
+                    <div class="single-processing text-center">
+                        <span>1</span>
+                        <div class="processing-icon">
+                            <i class="fa-solid fa-chalkboard-user"></i>
+                        </div>
+                        <h4>Request service from the site</h4>
+                    </div>
                 </div>
-                <div style="background-color: #39ac8c; border-radius: 10px;" class="col  p-5">
-                    <form>
-                        <h2 class="text-center text-white mb-5 fw-bold">Fill the form</h2>
-                        <div class="row">
-                            <div class="col">
-                                <div class="mb-3">
-                                    <input type="text" class="form-control" placeholder="Name">
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="mb-3">
-                                    <input type="text" class="form-control" placeholder="phone">
-                                </div>
-                            </div>
+                <div class="col-lg-4 col-sm-6 icon-color">
+                    <div class="single-processing text-center">
+                        <span>2</span>
+                        <div class="processing-icon">
+                            <i class="fa-solid fa-phone"></i>
                         </div>
-                        <div class="row">
-                            <div class="col">
-                                <div class="mb-3">
-                                    <input type="email" class="form-control" placeholder="E-mail">
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="mb-3">
-                                    <input type="password" class="form-control" placeholder="Subject">
-                                </div>
-                            </div>
+                        <h4>Customer service will contact you to schedule an appointment</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 icon-color">
+                    <div class="single-processing text-center">
+                        <span>3</span>
+                        <div class="processing-icon">
+                            <i class="fa-solid fa-bullseye"></i>
                         </div>
-                        <textarea class="form-control" placeholder="Message" id="exampleFormControlTextarea1"
-                            rows="6"></textarea>
-                    </form>
+                        <h4>Our team will serve you at the right time and place for you</h4>
+                    </div>
                 </div>
             </div>
         </div>
@@ -399,19 +395,35 @@
         <div class="container">
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
                 <div class="col">
-                    <img class="img-fluid" src="./content/assets/img/logo.webp" alt="">
+                    <img class="img-fluid" src="./content/assets/img/logo.webp" alt="" width="200">
                 </div>
                 <div class="col">
-                    <h3>Looking for home health care?</h3>
-                </div>
-                <div class="col">
-                    <p>GHEA Medical Services Your first choice of home
-                        care with trained professionals whose goal
-                        is to provide you with the best service
+                    <h5>Whats App</h5>
+                    <span><a class="text__main__color" href=""><i
+                                class="fa-brands fa-whatsapp me-1"></i>9900154879</a></span>
+                    <h5>Location</h5>
+                    <p class="text__main__color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, ab.
                     </p>
                 </div>
                 <div class="col">
-                    <button class="upperbar-btn text-white">Request our service now</button>
+                    <h5>Our Pages</h5>
+                    <ul>
+                        <li><a class="text__main__color" href="./index.html">Home</a></li>
+                        <li><a class="text__main__color" href="./about-us/about-us.html">About Us</a></li>
+                        <li><a class="text__main__color" href="./services/services.html">Services</a></li>
+                        <li><a class="text__main__color" href="./communication/communication.html">Communication</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5>Contact Us</h5>
+                    <ul class="p-0">
+                        <li class="d-inline-block"><a class="text__main__color fs-4" href=""><i class="fa-brands fa-facebook"></i></a></li>
+                        <li class="d-inline-block"><a class="text__main__color fs-4" href=""><i class="fa-brands fa-facebook"></i></a></li>
+                        <li class="d-inline-block"><a class="text__main__color fs-4" href=""><i class="fa-brands fa-facebook"></i></a></li>
+                        <li class="d-inline-block"><a class="text__main__color fs-4" href=""><i class="fa-brands fa-facebook"></i></a></li>
+                        <li class="d-inline-block"><a class="text__main__color fs-4" href=""><i class="fa-brands fa-facebook"></i></a></li>
+                    </ul>
                 </div>
             </div>
             <span class="d-block text-center">&copy; You deserve the best from <a class="text-light"
@@ -423,8 +435,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
-    <!-- Main Script  -->
-    <script src="./content/Js/main.js"></script>
+    <script src="./content/Js/vendors/jQuery.min.js"></script>
+    <!-- Js for Owl Carousel v2.3.4  -->
+    <script src="./content/Js/vendors/owl.carousel.min.js"></script>
+    <!-- owl-carousel LTR file  -->
+    <script src="./content/Js/owl-carousel-ltr.js"></script>
 </body>
 
 </html>
