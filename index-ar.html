@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Css for Owl Carousel v2.3.4  -->
+    <link rel="stylesheet" href="./content/css/vendor/owl.carousel.css">
+    <link rel="stylesheet" href="./content/css/vendor/owl.theme.default.min.css">
     <!-- Main Style Sheet -->
     <link rel="stylesheet" href="./content/css/main-rtl.css">
 </head>
@@ -24,6 +27,9 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container flex-row-reverse flex-md-row">
+            <a class="navbar-brand" href="./index-ar.html">
+                <img src="./content/assets/img/Full-color.webp" alt="Bootstrap" width="150">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -31,77 +37,31 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="./index-ar.html">الرئيسية</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./about-us/about-us-ar.html">عن الشركة</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="./index-ar.html">الرئيسية</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./about-us/about-us-ar.html">عن جيا</a></li>
                     <li class="nav-item"><a class="nav-link" href="./services/services-ar.html">خدماتنا</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./communication/communication-ar.html">تواصل</a>
+                    <li class="nav-item"><a class="nav-link" href="./communication/communication-ar.html">تواصل معنا</a>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="./index.html">English</a></li>
                 </ul>
+                <button class="upperbar-btn"><a href="">أطلب خدماتنا الأن</a></button>
             </div>
-            <button class="upperbar-btn"><a href="">اطلب خدمتنا الآن</a></button>
         </div>
     </nav>
 
 
     <section class="hero">
-        <div class="container h-100 d-flex align-items-center">
-            <div class="hero__content">
-                <h1 class="fs-3">جيا للخدمات الطبية<br>
-                    نحافظ على سلامتك ونرعى صحتك
-                </h1>
-                <button class="upperbar-btn text-center"><a href="">اطلب خدمتنا الآن</a></button>
-            </div>
-            <div class="hero__form d-none d-lg-block">
-                <form>
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="row">
-                                <div class="input-group mb-1">
-                                    <span class="input-group-text" id="basic-addon1"><i
-                                            class="fa-solid fa-bullseye input-icon"></i></span>
-                                    <input type="text" class="form-control" placeholder="Your Name"
-                                        aria-label="YourName" aria-describedby="basic-addon1">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="input-group mb-1">
-                                    <span class="input-group-text" id="basic-addon1"><i
-                                            class="fa-solid fa-location-dot"></i></span>
-                                    <input type="text" class="form-control" placeholder="Your Location"
-                                        aria-label="YourLocation" aria-describedby="basic-addon1">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3 d-flex">
-                            <input class="form__date" type="date">
-                            <input class="form__date" type="date">
-                        </div>
-                        <div class="col-3">
-                            <div class="row">
-                                <select class="form-select mb-1" aria-label="Default select example">
-                                    <option value="0">All Servcie</option>
-                                    <option value="1">Servcie One</option>
-                                    <option value="2">Servcie Two</option>
-                                    <option value="3">Servcie Three</option>
-                                </select>
-                            </div>
-                            <div class="row">
-                                <div class="input-group p-0 mb-1">
-                                    <span class="input-group-text" id="basic-addon1"><i
-                                            class="fa-solid fa-phone-volume"></i></span>
-                                    <input type="text" class="form-control" placeholder="Phone Number"
-                                        aria-label="PhoneNumber" aria-describedby="basic-addon1">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <button type="submit" class="btn w-100 h-100">أطلب<br>خدماتنا الان</button>
-                        </div>
+        <div class="owl-carousel-hero owl-carousel owl-theme">
+            <div class="item slide-2">
+                <div class="container h-100 d-flex align-items-center justify-content-end">
+                    <div class="hero__content">
+                        <h1 class="fs-3">جيا للخدمات الطبية<br>
+                            نحافظ على سلامتك ونرعى صحتك
+                        </h1>
+                        <button class="upperbar-btn text-center"><a href="">اطلب خدمتنا الآن</a></button>
                     </div>
+                </div>
             </div>
-            </form>
-        </div>
         </div>
     </section>
 
@@ -139,8 +99,7 @@
         <div class="container">
             <div class="row row-cols-1 row-cols-md-2">
                 <div class="col">
-                    <img class="img-fluid"
-                        src="./content/assets/img/doctor-crossing-arms-while-holding-stethoscope-white-coat.png" alt="">
+                    <img class="img-fluid" src="./content/assets/img/about-section.webp" alt="">
                 </div>
                 <div class="col">
                     <span class="text__main__color">تعرف على جيا </span>
@@ -186,7 +145,7 @@
 
     <section class="scoops py-5">
         <div class="container">
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mb-3">
                 <div class="col">
                     <div class="scoops__card">
                         <div class="icon__box">
@@ -221,6 +180,8 @@
                         </p>
                     </div>
                 </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mb-3">
                 <div class="col">
                     <div class="scoops__card">
                         <div class="icon__box">
@@ -254,6 +215,8 @@
                             رعاية ما بعد الجراحة مع متخصصين من جيا </p>
                     </div>
                 </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mb-3">
                 <div class="col">
                     <div class="scoops__card">
                         <div class="icon__box">
@@ -286,6 +249,7 @@
                 </div>
             </div>
         </div>
+        </div>
     </section>
 
     <section class="py-5">
@@ -308,52 +272,36 @@
         </div>
     </section>
 
-    <section class="py-5">
+    <section class="how-we-work py-5">
         <div class="container">
-            <div class="row row-cols-1 row-cols-md-2">
-                <div class="col">
-                    <h2 class="text__main__color mb-5">كيف نعمل</h2>
-                    <ul>
-                        <li>- عند اختیار خدماتنا يتم عقد جلسة استشاریة شاملة لفھم الاحتیاجات الصحیة والشخصیة للمریض</li>
-                        <li>- نساعدك بعد ذلك على اختیار أفضل مقدم رعایة، اعتمادًا على الفترة الزمنیة التي تحتاجھا
-                            والحالة المراد رعايتها</li>
-                        <li>- يتم وضع خطة من قبل خبراؤنا اعتمادًا على احتیاجاتك الفردیة</li>
-                        <li>- سیبدأ مقدمو الرعایة لدینا في تقدیم الخدمات، وسنراقب سیرھا لضمان الامتثال لمعاییر عالیة من
-                            الرعایة</li>
-                        <li>- نقوم بتقييم مقدمي الرعایة بصفة دوریة لضمان الجودة
-                        </li>
-                    </ul>
+            <h2 class="text__main__color text-center mb-5">كيف نعمل</h2>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 icon-color">
+                    <div class="single-processing text-center">
+                        <span>1</span>
+                        <div class="processing-icon">
+                            <i class="fa-solid fa-chalkboard-user"></i>
+                        </div>
+                        <h4>أطلب خدمه من خلال الموقع</h4>
+                    </div>
                 </div>
-                <div style="background-color: #39ac8c; border-radius: 10px;" class="col  p-5">
-                    <form>
-                        <h2 class="text-center text-white mb-5 fw-bold">أملئ الخانات</h2>
-                        <div class="row">
-                            <div class="col">
-                                <div class="mb-3">
-                                    <input type="text" class="form-control" placeholder="Name">
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="mb-3">
-                                    <input type="text" class="form-control" placeholder="phone">
-                                </div>
-                            </div>
+                <div class="col-lg-4 col-sm-6 icon-color">
+                    <div class="single-processing text-center">
+                        <span>2</span>
+                        <div class="processing-icon">
+                            <i class="fa-solid fa-phone"></i>
                         </div>
-                        <div class="row">
-                            <div class="col">
-                                <div class="mb-3">
-                                    <input type="email" class="form-control" placeholder="E-mail">
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="mb-3">
-                                    <input type="password" class="form-control" placeholder="Subject">
-                                </div>
-                            </div>
+                        <h4>ستتصل بك خدمة العملاء لتحديد موعد</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 icon-color">
+                    <div class="single-processing text-center">
+                        <span>3</span>
+                        <div class="processing-icon">
+                            <i class="fa-solid fa-bullseye"></i>
                         </div>
-                        <textarea class="form-control" placeholder="Message" id="exampleFormControlTextarea1"
-                            rows="6"></textarea>
-                    </form>
+                        <h4>سيقوم فريقنا بخدمتك في الوقت والمكان المناسبين لك</h4>
+                    </div>
                 </div>
             </div>
         </div>
@@ -363,19 +311,33 @@
         <div class="container">
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
                 <div class="col">
-                    <img class="img-fluid" src="./content/assets/img/logo.webp" alt="">
+                    <img class="img-fluid" src="./content/assets/img/logo.webp" alt="" width="200">
                 </div>
                 <div class="col">
-                    <h3>هل تبحث عن رعاية صحية منزلية؟</h3>
+                    <h5>واتساب</h5>
+                    <span><a class="text__main__color" href="tel:0580435693"><i
+                                class="fa-brands fa-whatsapp me-1"></i>0580435693</a></span>
                 </div>
                 <div class="col">
-                    <p>جيا للخدمات الطبية خيارك الأول للرعاية المنزلية مع متخصصين مدربين هدفهم تزويدك بأفضل خدمة</p>
+                    <h5>صفحاتنا</h5>
+                    <ul>
+                        <li><a class="text__main__color" href="./index-ar.html">الرئيسية</a></li>
+                        <li><a class="text__main__color" href="./about-us/about-us-ar.html">عن جيا</a></li>
+                        <li><a class="text__main__color" href="./services/services-ar.html">خدماتنا</a></li>
+                        <li><a class="text__main__color" href="./communication/communication-ar.html">تواصل معنا</a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="col">
-                    <button class="upperbar-btn text-white">أطلب خدماتنا الان</button>
+                    <h5>تواصل معنا</h5>
+                    <ul class="p-0">
+                        <li class="d-inline-block"><a class="text__main__color fs-4"
+                                href="https://instagram.com/gheamedical.sa?igshid=YmMyMTA2M2Y=" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
                 </div>
             </div>
-            <span class="d-block text-center">&copy; أنت تستحق الافضل من <a class="text-light"
+            <span class="d-block text-center">&copy; أنت تستحق الأفضل من<a class="text-light"
                     href="https://www.ocoda.com/" target="_blank">Ocoda</a></span>
         </div>
     </footer>
@@ -384,8 +346,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
-    <!-- Main Script  -->
-    <script src="./content/Js/main.js"></script>
+    <script src="./content/Js/vendors/jQuery.min.js"></script>
+    <!-- Js for Owl Carousel v2.3.4  -->
+    <script src="./content/Js/vendors/owl.carousel.min.js"></script>
+    <!-- owl-carousel LTR file  -->
+    <script src="./content/Js/owl-carousel-rtl.js"></script>
 </body>
 
 </html>
